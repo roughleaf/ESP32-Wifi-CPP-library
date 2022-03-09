@@ -42,7 +42,7 @@ void Main::setup(void)
     esp_event_loop_create_default();
     nvs_flash_init();
 
-    Wifi.SetCredentials("TestGuest", "00000000");
+    Wifi.SetCredentials("your_ssid", "Your_passsword");
     Wifi.Init();
 }
 
